@@ -128,7 +128,7 @@
 //     console.log(jumbledMessage)
 //     return jumbledMessage
 //    }
-    
+
 // // =============== DECODED =====================
 //    if (!encode){
 //     let str = message;
@@ -315,6 +315,7 @@ const polybiusModule = (() => {
     y: 45,
     z: 55,
   };
+
   function polybius(input, encode = true) {
     input = input.toLowerCase();
     let split;

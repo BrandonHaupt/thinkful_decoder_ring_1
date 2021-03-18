@@ -3,6 +3,8 @@
 // Only add code (e.g., helper methods, variables, etc.) within the scope
 // of the anonymous function on line 6
 
+ // 
+
 const caesarModule = (function () {
   // you can add any code you want within this function scope
   // if (!alphabet.some((letter) => letter === char.toLowerCase()))
@@ -10,7 +12,7 @@ const caesarModule = (function () {
   // let alphabet = "abcdefghijklmnopqrstuvwxyz";
 
   function caesar(input, shift, encode = true) {
-    // your solution code here
+// your solution code here
     let realMessage = ""
     let array = [] //shiftingArray
     let message = input.toLowerCase(); //newInput
@@ -267,6 +269,8 @@ const caesarModule = (function () {
     // console.log(message)
     // console.log(`hmm`, array, jumbledMessage)
     return realMessage
+   
+    
   }
  
   return {caesar,};
